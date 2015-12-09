@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @responsible.code %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @responsible.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @responsible.end_time %>
+</p>
+
+<%= link_to 'Edit', edit_responsible_path(@responsible) %> |
+<%= link_to 'Back', responsibles_path %>

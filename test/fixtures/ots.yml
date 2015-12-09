@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  motor_type: MyString
+  brand: MyString
+  power: MyString
+  speed: 1
+  voltage: MyString
+  current: MyString
+  serial: MyString
+  oder_activities: MyText
+
+two:
+  motor_type: MyString
+  brand: MyString
+  power: MyString
+  speed: 1
+  voltage: MyString
+  current: MyString
+  serial: MyString
+  oder_activities: MyText
